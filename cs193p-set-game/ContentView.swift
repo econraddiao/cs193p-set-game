@@ -1,4 +1,4 @@
-//
+  //
 //  ContentView.swift
 //  cs193p-set-game
 //
