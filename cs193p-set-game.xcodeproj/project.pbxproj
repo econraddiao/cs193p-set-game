@@ -9,21 +9,41 @@
 /* Begin PBXBuildFile section */
 		03ED90D024BD0E4800E6AAAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ED90CF24BD0E4800E6AAAD /* AppDelegate.swift */; };
 		03ED90D224BD0E4800E6AAAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ED90D124BD0E4800E6AAAD /* SceneDelegate.swift */; };
-		03ED90D424BD0E4800E6AAAD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ED90D324BD0E4800E6AAAD /* ContentView.swift */; };
+		03ED90D424BD0E4800E6AAAD /* SetGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ED90D324BD0E4800E6AAAD /* SetGameView.swift */; };
 		03ED90D624BD0E4B00E6AAAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03ED90D524BD0E4B00E6AAAD /* Assets.xcassets */; };
 		03ED90D924BD0E4B00E6AAAD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03ED90D824BD0E4B00E6AAAD /* Preview Assets.xcassets */; };
 		03ED90DC24BD0E4B00E6AAAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03ED90DA24BD0E4B00E6AAAD /* LaunchScreen.storyboard */; };
+		03ED90E524BD112300E6AAAD /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ED90E324BD112300E6AAAD /* Grid.swift */; };
+		03ED90E624BD112300E6AAAD /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ED90E424BD112300E6AAAD /* GridLayout.swift */; };
+		03ED90E924BD112C00E6AAAD /* Array+Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ED90E724BD112C00E6AAAD /* Array+Identifiable.swift */; };
+		03ED90EA24BD112C00E6AAAD /* Array+Only.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ED90E824BD112C00E6AAAD /* Array+Only.swift */; };
+		03ED90EC24BD113300E6AAAD /* Cardify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ED90EB24BD113300E6AAAD /* Cardify.swift */; };
+		03ED90EE24BD182A00E6AAAD /* SetGameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ED90ED24BD182A00E6AAAD /* SetGameModel.swift */; };
+		03ED90F024BD1B6900E6AAAD /* SetGameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ED90EF24BD1B6900E6AAAD /* SetGameViewModel.swift */; };
+		03ED90F224BD644E00E6AAAD /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ED90F124BD644E00E6AAAD /* Card.swift */; };
+		03ED90F824BD807500E6AAAD /* TripleComparable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ED90F724BD807500E6AAAD /* TripleComparable.swift */; };
+		03ED90FA24BD91B600E6AAAD /* Symbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ED90F924BD91B600E6AAAD /* Symbol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		03ED90CC24BD0E4800E6AAAD /* cs193p-set-game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cs193p-set-game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03ED90CF24BD0E4800E6AAAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03ED90D124BD0E4800E6AAAD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		03ED90D324BD0E4800E6AAAD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		03ED90D324BD0E4800E6AAAD /* SetGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetGameView.swift; sourceTree = "<group>"; };
 		03ED90D524BD0E4B00E6AAAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03ED90D824BD0E4B00E6AAAD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		03ED90DB24BD0E4B00E6AAAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03ED90DD24BD0E4B00E6AAAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03ED90E324BD112300E6AAAD /* Grid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		03ED90E424BD112300E6AAAD /* GridLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
+		03ED90E724BD112C00E6AAAD /* Array+Identifiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Identifiable.swift"; sourceTree = "<group>"; };
+		03ED90E824BD112C00E6AAAD /* Array+Only.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Only.swift"; sourceTree = "<group>"; };
+		03ED90EB24BD113300E6AAAD /* Cardify.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cardify.swift; sourceTree = "<group>"; };
+		03ED90ED24BD182A00E6AAAD /* SetGameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetGameModel.swift; sourceTree = "<group>"; };
+		03ED90EF24BD1B6900E6AAAD /* SetGameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetGameViewModel.swift; sourceTree = "<group>"; };
+		03ED90F124BD644E00E6AAAD /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		03ED90F724BD807500E6AAAD /* TripleComparable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripleComparable.swift; sourceTree = SOURCE_ROOT; };
+		03ED90F924BD91B600E6AAAD /* Symbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +76,19 @@
 		03ED90CE24BD0E4800E6AAAD /* cs193p-set-game */ = {
 			isa = PBXGroup;
 			children = (
+				03ED90F724BD807500E6AAAD /* TripleComparable.swift */,
 				03ED90CF24BD0E4800E6AAAD /* AppDelegate.swift */,
 				03ED90D124BD0E4800E6AAAD /* SceneDelegate.swift */,
-				03ED90D324BD0E4800E6AAAD /* ContentView.swift */,
+				03ED90D324BD0E4800E6AAAD /* SetGameView.swift */,
+				03ED90ED24BD182A00E6AAAD /* SetGameModel.swift */,
+				03ED90F124BD644E00E6AAAD /* Card.swift */,
+				03ED90EF24BD1B6900E6AAAD /* SetGameViewModel.swift */,
+				03ED90F924BD91B600E6AAAD /* Symbol.swift */,
+				03ED90E324BD112300E6AAAD /* Grid.swift */,
+				03ED90E424BD112300E6AAAD /* GridLayout.swift */,
+				03ED90E724BD112C00E6AAAD /* Array+Identifiable.swift */,
+				03ED90E824BD112C00E6AAAD /* Array+Only.swift */,
+				03ED90EB24BD113300E6AAAD /* Cardify.swift */,
 				03ED90D524BD0E4B00E6AAAD /* Assets.xcassets */,
 				03ED90DA24BD0E4B00E6AAAD /* LaunchScreen.storyboard */,
 				03ED90DD24BD0E4B00E6AAAD /* Info.plist */,
@@ -147,8 +177,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				03ED90D024BD0E4800E6AAAD /* AppDelegate.swift in Sources */,
+				03ED90EE24BD182A00E6AAAD /* SetGameModel.swift in Sources */,
 				03ED90D224BD0E4800E6AAAD /* SceneDelegate.swift in Sources */,
-				03ED90D424BD0E4800E6AAAD /* ContentView.swift in Sources */,
+				03ED90F824BD807500E6AAAD /* TripleComparable.swift in Sources */,
+				03ED90EC24BD113300E6AAAD /* Cardify.swift in Sources */,
+				03ED90E624BD112300E6AAAD /* GridLayout.swift in Sources */,
+				03ED90D424BD0E4800E6AAAD /* SetGameView.swift in Sources */,
+				03ED90E524BD112300E6AAAD /* Grid.swift in Sources */,
+				03ED90EA24BD112C00E6AAAD /* Array+Only.swift in Sources */,
+				03ED90E924BD112C00E6AAAD /* Array+Identifiable.swift in Sources */,
+				03ED90FA24BD91B600E6AAAD /* Symbol.swift in Sources */,
+				03ED90F024BD1B6900E6AAAD /* SetGameViewModel.swift in Sources */,
+				03ED90F224BD644E00E6AAAD /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
